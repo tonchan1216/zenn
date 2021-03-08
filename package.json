@@ -1,0 +1,25 @@
+{
+  "name": "zenn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new":"npx zenn new:article",
+    "preview": "npx zenn preview --port 3333"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonchan1216/zenn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonchan1216/zenn/issues"
+  },
+  "homepage": "https://github.com/tonchan1216/zenn#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.75"
+  }
+}
